@@ -14,7 +14,7 @@ Python: 3.10.5 (using Pyenv)
 git clone https://github.com/supplepentan/daclip-uir-for-win
 ```
 
-## Python-version Setting by using Pyenv
+## Python-version Setting using Pyenv
 
 ```bash
 pyenv local 3.10.5
@@ -35,13 +35,17 @@ python -m pip uninstall -y torch torchvision
 python -m pip install torch torchvision --index-url https://download.pytorch.org/whl/cu117
 ```
 
-### triton
+### Triton
 
-Download "triton-2.0.0-cp310-cp310-win_amd64.whl" from from https://huggingface.co/r4ziel/xformers_pre_built/commit/22505e3edeead471f3801ff2c3d478ffa51be755 , and set root folder.
+Download " [triton-2.0.0-cp310-cp310-win_amd64.whl](https://huggingface.co/r4ziel/xformers_pre_built/commit/22505e3edeead471f3801ff2c3d478ffa51be755) ", and set root folder.
 
 ```bash
 python -m pip install triton-2.0.0-cp310-cp310-win_amd64.whl
 ```
+
+## Models
+
+Download the models [daclip_ViT-B-32.pt](https://drive.google.com/file/d/1A6u4CaVrcpcZckGUNzEXqMF8x_JXsZdX/view?usp=sharing) and [universal-ir.pth](https://huggingface.co/camenduru/daclip-uir/resolve/main/universal-ir.pth), set in folder " pretrained ".
 
 ## Run
 
