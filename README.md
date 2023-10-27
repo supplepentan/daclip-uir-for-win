@@ -37,7 +37,7 @@ python -m pip install torch torchvision --index-url https://download.pytorch.org
 
 ### Triton
 
-Download " [triton-2.0.0-cp310-cp310-win_amd64.whl](https://huggingface.co/r4ziel/xformers_pre_built/commit/22505e3edeead471f3801ff2c3d478ffa51be755) ", and set root folder.
+Download " [triton-2.0.0-cp310-cp310-win_amd64.whl](https://huggingface.co/r4ziel/xformers_pre_built/resolve/main/triton-2.0.0-cp310-cp310-win_amd64.whl) ", and set root folder.
 
 ```bash
 python -m pip install triton-2.0.0-cp310-cp310-win_amd64.whl
